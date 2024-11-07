@@ -1,0 +1,135 @@
+
+body {
+    overflow-x: hidden !important;
+    margin-bottom: 200% !important;  /* Ajusta el valor según lo necesites */
+}
+header {
+    
+    height: 95px;
+    background-color: rgb(138, 127, 111);
+    padding-top: 0px;
+    box-sizing: border-box;
+    z-index: 1000;
+} 
+/* Elimina el padding del row */
+.row {
+    padding: 0 !important;
+    
+    display: flex !important;
+}
+
+
+
+
+/* magiaaaaaaaaaaaa*/
+#carouselExampleCaptions .carousel-item {
+    
+    transition-duration: 1700ms !important;
+}
+.logo{
+    
+    height: 10%;
+    float: left;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    border-radius: 4%;
+}
+
+
+
+
+
+#contenedor4{
+    padding: 0 !important;
+    
+}
+#marca{
+    
+    font-family: 'Courier New', monospace;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), -3px -3px 5px rgba(255, 255, 255, 0.2);
+}
+#marca:hover {
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);}
+
+#botoneraizq {
+    width: 50%;
+    height: 50px;
+    margin-top: 5px;
+    float: left;
+    
+}
+
+#botoneraizq ul, #botonerader ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#botoneraizq ul li, #botonerader ul li {
+    flex-grow: 5;
+    text-align: center;
+}
+
+#botoneraizq ul li a, #botonerader ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(112, 103, 90);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 0;
+    
+}
+
+#botonerader {
+    width: 50%;
+    height: 50px;
+    margin-top: 5px;
+    float: right;
+}
+
+h3 {
+    background-color:rgb(138, 127, 111);
+    color: rgb(255, 255, 255);
+    padding: 1px;
+    text-align: center;
+}
+
+.ajustar_img {
+    width: 100%;    
+}
+
+#contenedor4 {
+    height: 2100px;
+    background-color: white (226, 221, 221);
+    
+}
+
+footer {
+    position: fixed;
+    margin-bottom: 0;  /* Elimina márgenes debajo del slider */
+    padding-bottom: 0;
+    bottom: 0;   /* Lo fija en la parte inferior */
+    left: 0;
+    width: 100%; /* Ocupa el ancho completo */
+    height: 5%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    
+    z-index: 1000;
+    font-size: 100%;
+}
+#card{
+    border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;  /* Espacio entre las tarjetas */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.slider-container {
+    margin-bottom: 0;  /* Elimina márgenes debajo del slider */
+    padding-bottom: 0; /* Elimina rellenos debajo del slider */
+  }
